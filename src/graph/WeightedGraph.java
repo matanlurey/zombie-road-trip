@@ -20,7 +20,7 @@ public interface WeightedGraph<T> {
   /**
    * Returns an iterable of all neighbor vertices of the provided vertex.
    *
-   * Throws (SOMETHING) if the vertex was not within the graph.
+   * Edges are always returned with @param vertex in the starting position.
    *
    * @param vertex Vertex value.
    */
