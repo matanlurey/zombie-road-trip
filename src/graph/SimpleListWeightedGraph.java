@@ -20,7 +20,7 @@ public final class SimpleListWeightedGraph<T> implements WeightedGraph<T> {
   }
 
   @Override
-  public Iterable<WeightedEdge<T>> getNeighbors(T a) {
+  public Iterable<WeightedEdge<T>> getEdges(T a) {
     List<WeightedEdge<T>> result = new ArrayList<>();
     for (WeightedEdge<T> edge : edges) {
       if (edge.getA().equals(a)) {

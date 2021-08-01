@@ -24,5 +24,5 @@ public interface WeightedGraph<T> {
    *
    * @param vertex Vertex value.
    */
-  Iterable<WeightedEdge<T>> getNeighbors(T vertex);
+  Iterable<WeightedEdge<T>> getEdges(T vertex);
 }
