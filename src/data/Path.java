@@ -25,4 +25,13 @@ public final class Path {
   public int getWeight() {
     return this.weight;
   }
+
+  @Override
+  public String toString() {
+    return "Path{" +
+            "a=" + a +
+            ", b=" + b +
+            ", weight=" + weight +
+            '}';
+  }
 }
