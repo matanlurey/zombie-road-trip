@@ -17,5 +17,4 @@ class DataReaderTest {
         Path path2 = new Path(0, 2, 4);
         assertEquals(List.of(path1, path2), actual);
     }
-
 }

@@ -12,7 +12,7 @@ public class DataReader {
    *
    * @param textContents Text in the format of {@code (0, 1, 100), (1, 3, 200)}.
    */
-  List<Path> readPaths(String textContents) {
+  public List<Path> readPaths(String textContents) {
     List<Path> result = new ArrayList<>();
     String regex = "\\d*, \\d*, \\d*";
     Pattern pattern = Pattern.compile(regex);
